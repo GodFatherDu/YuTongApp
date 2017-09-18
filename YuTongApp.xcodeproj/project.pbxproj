@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC03C9571F691B6600737BDE /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03C9561F691B6600737BDE /* OpenUDID.m */; };
+		AC03C95B1F691D1D00737BDE /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03C95A1F691D1D00737BDE /* AppManager.m */; };
 		ACA1B3FC1F690B3200CA57A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1B3FB1F690B3200CA57A8 /* main.m */; };
-		ACA1B3FF1F690B3200CA57A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1B3FE1F690B3200CA57A8 /* AppDelegate.m */; };
 		ACA1B4021F690B3200CA57A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1B4011F690B3200CA57A8 /* ViewController.m */; };
 		ACA1B4051F690B3200CA57A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA1B4031F690B3200CA57A8 /* Main.storyboard */; };
 		ACA1B4071F690B3200CA57A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA1B4061F690B3200CA57A8 /* Assets.xcassets */; };
 		ACA1B40A1F690B3200CA57A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA1B4081F690B3200CA57A8 /* LaunchScreen.storyboard */; };
 		ACA1B4151F690B3300CA57A8 /* YuTongAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1B4141F690B3300CA57A8 /* YuTongAppTests.m */; };
 		ACA1B4201F690B3300CA57A8 /* YuTongAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1B41F1F690B3300CA57A8 /* YuTongAppUITests.m */; };
+		ACA1B4301F690B6D00CA57A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1B42F1F690B6D00CA57A8 /* AppDelegate.m */; };
+		ACA1B4331F6911A400CA57A8 /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1B4321F6911A400CA57A8 /* AppDelegate+AppService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC03C9551F691B6600737BDE /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		AC03C9561F691B6600737BDE /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		AC03C9591F691D1D00737BDE /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		AC03C95A1F691D1D00737BDE /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
 		ACA1B3F71F690B3200CA57A8 /* YuTongApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuTongApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA1B3FB1F690B3200CA57A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ACA1B3FD1F690B3200CA57A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ACA1B3FE1F690B3200CA57A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ACA1B4001F690B3200CA57A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ACA1B4011F690B3200CA57A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ACA1B4041F690B3200CA57A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,16 @@
 		ACA1B41B1F690B3300CA57A8 /* YuTongAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuTongAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA1B41F1F690B3300CA57A8 /* YuTongAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuTongAppUITests.m; sourceTree = "<group>"; };
 		ACA1B4211F690B3300CA57A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA1B42E1F690B6D00CA57A8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACA1B42F1F690B6D00CA57A8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACA1B4311F6911A400CA57A8 /* AppDelegate+AppService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppService.h"; sourceTree = "<group>"; };
+		ACA1B4321F6911A400CA57A8 /* AppDelegate+AppService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
+		ACA1B4351F6912E100CA57A8 /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		ACA1B4361F69133C00CA57A8 /* URLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLMacros.h; sourceTree = "<group>"; };
+		ACA1B4371F6913B100CA57A8 /* CommonMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacros.h; sourceTree = "<group>"; };
+		ACA1B4381F6913D500CA57A8 /* FontAndColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAndColorMacros.h; sourceTree = "<group>"; };
+		ACA1B4391F6913F600CA57A8 /* ThirdMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdMacros.h; sourceTree = "<group>"; };
+		ACA1B43B1F69148B00CA57A8 /* YuTongPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuTongPrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC03C9541F691B1F00737BDE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC03C9551F691B6600737BDE /* OpenUDID.h */,
+				AC03C9561F691B6600737BDE /* OpenUDID.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AC03C9581F691CF700737BDE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AC03C9591F691D1D00737BDE /* AppManager.h */,
+				AC03C95A1F691D1D00737BDE /* AppManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		ACA1B3EE1F690B3200CA57A8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +134,10 @@
 		ACA1B3F91F690B3200CA57A8 /* YuTongApp */ = {
 			isa = PBXGroup;
 			children = (
-				ACA1B3FD1F690B3200CA57A8 /* AppDelegate.h */,
-				ACA1B3FE1F690B3200CA57A8 /* AppDelegate.m */,
+				AC03C9581F691CF700737BDE /* Manager */,
+				AC03C9541F691B1F00737BDE /* Utils */,
+				ACA1B4341F6912CF00CA57A8 /* Define */,
+				ACA1B42D1F690B6D00CA57A8 /* AppDelegate */,
 				ACA1B4001F690B3200CA57A8 /* ViewController.h */,
 				ACA1B4011F690B3200CA57A8 /* ViewController.m */,
 				ACA1B4031F690B3200CA57A8 /* Main.storyboard */,
@@ -118,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				ACA1B3FB1F690B3200CA57A8 /* main.m */,
+				ACA1B43B1F69148B00CA57A8 /* YuTongPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +174,29 @@
 				ACA1B4211F690B3300CA57A8 /* Info.plist */,
 			);
 			path = YuTongAppUITests;
+			sourceTree = "<group>";
+		};
+		ACA1B42D1F690B6D00CA57A8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1B42E1F690B6D00CA57A8 /* AppDelegate.h */,
+				ACA1B42F1F690B6D00CA57A8 /* AppDelegate.m */,
+				ACA1B4311F6911A400CA57A8 /* AppDelegate+AppService.h */,
+				ACA1B4321F6911A400CA57A8 /* AppDelegate+AppService.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		ACA1B4341F6912CF00CA57A8 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1B4351F6912E100CA57A8 /* UtilsMacros.h */,
+				ACA1B4361F69133C00CA57A8 /* URLMacros.h */,
+				ACA1B4371F6913B100CA57A8 /* CommonMacros.h */,
+				ACA1B4381F6913D500CA57A8 /* FontAndColorMacros.h */,
+				ACA1B4391F6913F600CA57A8 /* ThirdMacros.h */,
+			);
+			path = Define;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA1B4331F6911A400CA57A8 /* AppDelegate+AppService.m in Sources */,
+				ACA1B4301F690B6D00CA57A8 /* AppDelegate.m in Sources */,
 				ACA1B4021F690B3200CA57A8 /* ViewController.m in Sources */,
-				ACA1B3FF1F690B3200CA57A8 /* AppDelegate.m in Sources */,
 				ACA1B3FC1F690B3200CA57A8 /* main.m in Sources */,
+				AC03C9571F691B6600737BDE /* OpenUDID.m in Sources */,
+				AC03C95B1F691D1D00737BDE /* AppManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9HW2TTN4VS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YuTongApp/YuTongPrefixHeader.pch";
 				INFOPLIST_FILE = YuTongApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.du.YuTongApp;
@@ -442,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9HW2TTN4VS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YuTongApp/YuTongPrefixHeader.pch";
 				INFOPLIST_FILE = YuTongApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.du.YuTongApp;
@@ -518,6 +582,7 @@
 				ACA1B4261F690B3300CA57A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACA1B4271F690B3300CA57A8 /* Build configuration list for PBXNativeTarget "YuTongAppTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +591,7 @@
 				ACA1B4291F690B3300CA57A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACA1B42A1F690B3300CA57A8 /* Build configuration list for PBXNativeTarget "YuTongAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +600,7 @@
 				ACA1B42C1F690B3300CA57A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
