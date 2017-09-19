@@ -16,6 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //初始化window
+    [self initWindow];
+    
+    //广告页
+    //    [AppManager showAdViewBegin];
+    [[AppManager sharedAppManager] showAdViewBegin];
+    
     // Override point for customization after application launch.
     return YES;
 }

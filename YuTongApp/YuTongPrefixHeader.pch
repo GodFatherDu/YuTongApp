@@ -17,6 +17,23 @@
 #import "ThirdMacros.h"
 #import "CommonMacros.h"
 
+//基础类
+#import "AppDelegate.h"
+#import "AppDelegate+AppService.h"
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#import "AppManager.h"
+
+//工具类
+#import "GlobalTools.h"
+
+
+//第三方
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "PPNetworkHelper.h"
+
+//分类
+#import "UIViewCotrollerCatergory.h"
 
 
 // Include any system framework and library headers here that should be included in all compilation units.

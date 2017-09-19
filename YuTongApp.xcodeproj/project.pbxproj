@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C540C18B39B76A8DC2BC6BD /* libPods-YuTongApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 857BB58ECEC3D257D4AFBE75 /* libPods-YuTongApp.a */; };
 		AC03C9571F691B6600737BDE /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03C9561F691B6600737BDE /* OpenUDID.m */; };
 		AC03C95B1F691D1D00737BDE /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03C95A1F691D1D00737BDE /* AppManager.m */; };
+		AC2E055A1F70E81C008ED757 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E05591F70E81C008ED757 /* UserManager.m */; };
+		AC2E055D1F70E859008ED757 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E055C1F70E859008ED757 /* UserInfo.m */; };
+		AC2E05681F70FB56008ED757 /* GlobalTools.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E05671F70FB56008ED757 /* GlobalTools.m */; };
+		AC2E05771F711FBE008ED757 /* UIViewController+AlertViewAndActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E05741F711FBE008ED757 /* UIViewController+AlertViewAndActionSheet.m */; };
+		AC2E05781F711FBE008ED757 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E05761F711FBE008ED757 /* UIViewController+Utils.m */; };
+		AC2E057F1F7124FB008ED757 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E057E1F7124FB008ED757 /* AdvertiseView.m */; };
 		ACA1B3FC1F690B3200CA57A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1B3FB1F690B3200CA57A8 /* main.m */; };
 		ACA1B4021F690B3200CA57A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1B4011F690B3200CA57A8 /* ViewController.m */; };
 		ACA1B4051F690B3200CA57A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA1B4031F690B3200CA57A8 /* Main.storyboard */; };
@@ -38,10 +45,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36EEF4A0E3E5496C53070294 /* Pods-YuTongApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuTongApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YuTongApp/Pods-YuTongApp.release.xcconfig"; sourceTree = "<group>"; };
+		67FB7CAEEE8FFF95909EE2B1 /* Pods-YuTongApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuTongApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YuTongApp/Pods-YuTongApp.debug.xcconfig"; sourceTree = "<group>"; };
+		857BB58ECEC3D257D4AFBE75 /* libPods-YuTongApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YuTongApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC03C9551F691B6600737BDE /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
 		AC03C9561F691B6600737BDE /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
 		AC03C9591F691D1D00737BDE /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
 		AC03C95A1F691D1D00737BDE /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		AC2E05581F70E81C008ED757 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		AC2E05591F70E81C008ED757 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		AC2E055B1F70E859008ED757 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		AC2E055C1F70E859008ED757 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		AC2E05661F70FB56008ED757 /* GlobalTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalTools.h; sourceTree = "<group>"; };
+		AC2E05671F70FB56008ED757 /* GlobalTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalTools.m; sourceTree = "<group>"; };
+		AC2E05731F711FBE008ED757 /* UIViewController+AlertViewAndActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AlertViewAndActionSheet.h"; path = "UIViewCotrllers/UIViewController+AlertViewAndActionSheet.h"; sourceTree = "<group>"; };
+		AC2E05741F711FBE008ED757 /* UIViewController+AlertViewAndActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AlertViewAndActionSheet.m"; path = "UIViewCotrllers/UIViewController+AlertViewAndActionSheet.m"; sourceTree = "<group>"; };
+		AC2E05751F711FBE008ED757 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Utils.h"; path = "UIViewCotrllers/UIViewController+Utils.h"; sourceTree = "<group>"; };
+		AC2E05761F711FBE008ED757 /* UIViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Utils.m"; path = "UIViewCotrllers/UIViewController+Utils.m"; sourceTree = "<group>"; };
+		AC2E057C1F711FF3008ED757 /* UIViewCotrollerCatergory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewCotrollerCatergory.h; sourceTree = "<group>"; };
+		AC2E057D1F7124FB008ED757 /* AdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
+		AC2E057E1F7124FB008ED757 /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
 		ACA1B3F71F690B3200CA57A8 /* YuTongApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuTongApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA1B3FB1F690B3200CA57A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACA1B4001F690B3200CA57A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -73,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C540C18B39B76A8DC2BC6BD /* libPods-YuTongApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,9 +117,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08971B25666262C7D1DED23E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67FB7CAEEE8FFF95909EE2B1 /* Pods-YuTongApp.debug.xcconfig */,
+				36EEF4A0E3E5496C53070294 /* Pods-YuTongApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2ED72038DC1A5F8954637350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				857BB58ECEC3D257D4AFBE75 /* libPods-YuTongApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC03C9541F691B1F00737BDE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				AC2E05651F70FB49008ED757 /* Tools */,
 				AC03C9551F691B6600737BDE /* OpenUDID.h */,
 				AC03C9561F691B6600737BDE /* OpenUDID.m */,
 			);
@@ -105,10 +147,52 @@
 		AC03C9581F691CF700737BDE /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				AC2E05571F70E812008ED757 /* UserManager */,
 				AC03C9591F691D1D00737BDE /* AppManager.h */,
 				AC03C95A1F691D1D00737BDE /* AppManager.m */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		AC2E05571F70E812008ED757 /* UserManager */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E05581F70E81C008ED757 /* UserManager.h */,
+				AC2E05591F70E81C008ED757 /* UserManager.m */,
+				AC2E055B1F70E859008ED757 /* UserInfo.h */,
+				AC2E055C1F70E859008ED757 /* UserInfo.m */,
+			);
+			path = UserManager;
+			sourceTree = "<group>";
+		};
+		AC2E055E1F70EE32008ED757 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E057D1F7124FB008ED757 /* AdvertiseView.h */,
+				AC2E057E1F7124FB008ED757 /* AdvertiseView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC2E05651F70FB49008ED757 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E05661F70FB56008ED757 /* GlobalTools.h */,
+				AC2E05671F70FB56008ED757 /* GlobalTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AC2E05721F711F81008ED757 /* Catergory */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E05731F711FBE008ED757 /* UIViewController+AlertViewAndActionSheet.h */,
+				AC2E05741F711FBE008ED757 /* UIViewController+AlertViewAndActionSheet.m */,
+				AC2E05751F711FBE008ED757 /* UIViewController+Utils.h */,
+				AC2E05761F711FBE008ED757 /* UIViewController+Utils.m */,
+				AC2E057C1F711FF3008ED757 /* UIViewCotrollerCatergory.h */,
+			);
+			path = Catergory;
 			sourceTree = "<group>";
 		};
 		ACA1B3EE1F690B3200CA57A8 = {
@@ -118,6 +202,8 @@
 				ACA1B4131F690B3300CA57A8 /* YuTongAppTests */,
 				ACA1B41E1F690B3300CA57A8 /* YuTongAppUITests */,
 				ACA1B3F81F690B3200CA57A8 /* Products */,
+				08971B25666262C7D1DED23E /* Pods */,
+				2ED72038DC1A5F8954637350 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +220,8 @@
 		ACA1B3F91F690B3200CA57A8 /* YuTongApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC2E05721F711F81008ED757 /* Catergory */,
+				AC2E055E1F70EE32008ED757 /* Views */,
 				AC03C9581F691CF700737BDE /* Manager */,
 				AC03C9541F691B1F00737BDE /* Utils */,
 				ACA1B4341F6912CF00CA57A8 /* Define */,
@@ -206,9 +294,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACA1B4241F690B3300CA57A8 /* Build configuration list for PBXNativeTarget "YuTongApp" */;
 			buildPhases = (
+				3BE0BA992AF6D768B29EFF18 /* [CP] Check Pods Manifest.lock */,
 				ACA1B3F31F690B3200CA57A8 /* Sources */,
 				ACA1B3F41F690B3200CA57A8 /* Frameworks */,
 				ACA1B3F51F690B3200CA57A8 /* Resources */,
+				93CD6B6F48A2E132D80810CE /* [CP] Embed Pods Frameworks */,
+				19AA7B14535B643BF246BE2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -330,16 +421,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19AA7B14535B643BF246BE2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YuTongApp/Pods-YuTongApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BE0BA992AF6D768B29EFF18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93CD6B6F48A2E132D80810CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YuTongApp/Pods-YuTongApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACA1B3F31F690B3200CA57A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2E055D1F70E859008ED757 /* UserInfo.m in Sources */,
 				ACA1B4331F6911A400CA57A8 /* AppDelegate+AppService.m in Sources */,
+				AC2E055A1F70E81C008ED757 /* UserManager.m in Sources */,
+				AC2E05781F711FBE008ED757 /* UIViewController+Utils.m in Sources */,
 				ACA1B4301F690B6D00CA57A8 /* AppDelegate.m in Sources */,
 				ACA1B4021F690B3200CA57A8 /* ViewController.m in Sources */,
 				ACA1B3FC1F690B3200CA57A8 /* main.m in Sources */,
+				AC2E05681F70FB56008ED757 /* GlobalTools.m in Sources */,
 				AC03C9571F691B6600737BDE /* OpenUDID.m in Sources */,
+				AC2E057F1F7124FB008ED757 /* AdvertiseView.m in Sources */,
+				AC2E05771F711FBE008ED757 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				AC03C95B1F691D1D00737BDE /* AppManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,11 +634,13 @@
 		};
 		ACA1B4251F690B3300CA57A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FB7CAEEE8FFF95909EE2B1 /* Pods-YuTongApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9HW2TTN4VS;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YuTongApp/YuTongPrefixHeader.pch";
 				INFOPLIST_FILE = YuTongApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.du.YuTongApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,11 +649,13 @@
 		};
 		ACA1B4261F690B3300CA57A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36EEF4A0E3E5496C53070294 /* Pods-YuTongApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9HW2TTN4VS;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YuTongApp/YuTongPrefixHeader.pch";
 				INFOPLIST_FILE = YuTongApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.du.YuTongApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

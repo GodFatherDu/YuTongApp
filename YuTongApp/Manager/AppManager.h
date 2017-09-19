@@ -10,8 +10,10 @@
 
 @interface AppManager : NSObject
 
+SINGLETON_FOR_HEADER(AppManager);
+
 #pragma mark ————— APP启动接口 —————
-+(void)appStart;
+- (void)showAdViewBegin;
 
 #pragma mark ————— FPS 监测 —————
 +(void)showFPS;
