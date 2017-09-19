@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+#import "XDMainTabBarController.h"
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-
+@property (strong, nonatomic) XDMainTabBarController *mainTabBar;
 @end
 

@@ -23,6 +23,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
 #import "AppManager.h"
+#import "UserManager.h"
 
 //工具类
 #import "GlobalTools.h"

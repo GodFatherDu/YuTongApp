@@ -21,9 +21,20 @@
     [self initWindow];
     
     //广告页
-    //    [AppManager showAdViewBegin];
     [[AppManager sharedAppManager] showAdViewBegin];
+     //UMeng初始化
     
+    //初始化app服务
+    [self initService];
+    
+    //初始化IM
+    
+    //初始化用户系统
+    [self initUserManager];
+    
+    
+    //网络监听
+    [self monitorNetworkStatus];
     // Override point for customization after application launch.
     return YES;
 }

@@ -73,7 +73,7 @@ static int const showtime = 3;
     [_adView sd_setImageWithURL:[NSURL URLWithString:imageUrl] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
         
     }];
-    _adView.image = [UIImage imageWithContentsOfFile:filePath];
+//    _adView.image = [UIImage imageWithContentsOfFile:filePath];
 }
 
 - (void)pushToAd{

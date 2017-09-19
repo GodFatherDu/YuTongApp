@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BB26A711F717D340031FEB1 /* XDMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB26A701F717D340031FEB1 /* XDMainTabBarController.m */; };
+		2BB26A741F717DAE0031FEB1 /* XDTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB26A731F717DAE0031FEB1 /* XDTabBarView.m */; };
+		2BB26A771F717E230031FEB1 /* XDTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB26A761F717E230031FEB1 /* XDTabBarItem.m */; };
+		2BB26A7A1F717E460031FEB1 /* XDTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB26A791F717E460031FEB1 /* XDTabBarBadge.m */; };
+		2BB26A7F1F71817D0031FEB1 /* XDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB26A7E1F71817D0031FEB1 /* XDRootViewController.m */; };
 		5C540C18B39B76A8DC2BC6BD /* libPods-YuTongApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 857BB58ECEC3D257D4AFBE75 /* libPods-YuTongApp.a */; };
 		AC03C9571F691B6600737BDE /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03C9561F691B6600737BDE /* OpenUDID.m */; };
 		AC03C95B1F691D1D00737BDE /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03C95A1F691D1D00737BDE /* AppManager.m */; };
@@ -45,6 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BB26A6F1F717D340031FEB1 /* XDMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMainTabBarController.h; sourceTree = "<group>"; };
+		2BB26A701F717D340031FEB1 /* XDMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMainTabBarController.m; sourceTree = "<group>"; };
+		2BB26A721F717DAE0031FEB1 /* XDTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDTabBarView.h; sourceTree = "<group>"; };
+		2BB26A731F717DAE0031FEB1 /* XDTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDTabBarView.m; sourceTree = "<group>"; };
+		2BB26A751F717E230031FEB1 /* XDTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDTabBarItem.h; sourceTree = "<group>"; };
+		2BB26A761F717E230031FEB1 /* XDTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDTabBarItem.m; sourceTree = "<group>"; };
+		2BB26A781F717E460031FEB1 /* XDTabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDTabBarBadge.h; sourceTree = "<group>"; };
+		2BB26A791F717E460031FEB1 /* XDTabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDTabBarBadge.m; sourceTree = "<group>"; };
+		2BB26A7D1F71817D0031FEB1 /* XDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRootViewController.h; sourceTree = "<group>"; };
+		2BB26A7E1F71817D0031FEB1 /* XDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRootViewController.m; sourceTree = "<group>"; };
 		36EEF4A0E3E5496C53070294 /* Pods-YuTongApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuTongApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YuTongApp/Pods-YuTongApp.release.xcconfig"; sourceTree = "<group>"; };
 		67FB7CAEEE8FFF95909EE2B1 /* Pods-YuTongApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuTongApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YuTongApp/Pods-YuTongApp.debug.xcconfig"; sourceTree = "<group>"; };
 		857BB58ECEC3D257D4AFBE75 /* libPods-YuTongApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YuTongApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +139,55 @@
 				36EEF4A0E3E5496C53070294 /* Pods-YuTongApp.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		2BB26A6C1F717CDF0031FEB1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2BB26A7C1F7181390031FEB1 /* RootViewController */,
+				2BB26A7B1F7181200031FEB1 /* NavigationController */,
+				2BB26A6D1F717CDF0031FEB1 /* TabbarController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2BB26A6D1F717CDF0031FEB1 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				2BB26A6E1F717CDF0031FEB1 /* TabBarView */,
+				2BB26A6F1F717D340031FEB1 /* XDMainTabBarController.h */,
+				2BB26A701F717D340031FEB1 /* XDMainTabBarController.m */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		2BB26A6E1F717CDF0031FEB1 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				2BB26A721F717DAE0031FEB1 /* XDTabBarView.h */,
+				2BB26A731F717DAE0031FEB1 /* XDTabBarView.m */,
+				2BB26A751F717E230031FEB1 /* XDTabBarItem.h */,
+				2BB26A761F717E230031FEB1 /* XDTabBarItem.m */,
+				2BB26A781F717E460031FEB1 /* XDTabBarBadge.h */,
+				2BB26A791F717E460031FEB1 /* XDTabBarBadge.m */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		2BB26A7B1F7181200031FEB1 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		2BB26A7C1F7181390031FEB1 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2BB26A7D1F71817D0031FEB1 /* XDRootViewController.h */,
+				2BB26A7E1F71817D0031FEB1 /* XDRootViewController.m */,
+			);
+			path = RootViewController;
 			sourceTree = "<group>";
 		};
 		2ED72038DC1A5F8954637350 /* Frameworks */ = {
@@ -220,6 +284,7 @@
 		ACA1B3F91F690B3200CA57A8 /* YuTongApp */ = {
 			isa = PBXGroup;
 			children = (
+				2BB26A6C1F717CDF0031FEB1 /* Base */,
 				AC2E05721F711F81008ED757 /* Catergory */,
 				AC2E055E1F70EE32008ED757 /* Views */,
 				AC03C9581F691CF700737BDE /* Manager */,
@@ -474,18 +539,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB26A7F1F71817D0031FEB1 /* XDRootViewController.m in Sources */,
 				AC2E055D1F70E859008ED757 /* UserInfo.m in Sources */,
 				ACA1B4331F6911A400CA57A8 /* AppDelegate+AppService.m in Sources */,
+				2BB26A741F717DAE0031FEB1 /* XDTabBarView.m in Sources */,
 				AC2E055A1F70E81C008ED757 /* UserManager.m in Sources */,
 				AC2E05781F711FBE008ED757 /* UIViewController+Utils.m in Sources */,
+				2BB26A7A1F717E460031FEB1 /* XDTabBarBadge.m in Sources */,
 				ACA1B4301F690B6D00CA57A8 /* AppDelegate.m in Sources */,
 				ACA1B4021F690B3200CA57A8 /* ViewController.m in Sources */,
 				ACA1B3FC1F690B3200CA57A8 /* main.m in Sources */,
+				2BB26A771F717E230031FEB1 /* XDTabBarItem.m in Sources */,
 				AC2E05681F70FB56008ED757 /* GlobalTools.m in Sources */,
 				AC03C9571F691B6600737BDE /* OpenUDID.m in Sources */,
 				AC2E057F1F7124FB008ED757 /* AdvertiseView.m in Sources */,
 				AC2E05771F711FBE008ED757 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				AC03C95B1F691D1D00737BDE /* AppManager.m in Sources */,
+				2BB26A711F717D340031FEB1 /* XDMainTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
