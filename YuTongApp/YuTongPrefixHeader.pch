@@ -25,6 +25,10 @@
 #import "AppManager.h"
 #import "UserManager.h"
 
+//ViewCotrollers
+#import "XDRootViewController.h"
+#import "RootNavigationController.h"
+
 //工具类
 #import "GlobalTools.h"
 
@@ -32,6 +36,7 @@
 //第三方
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "PPNetworkHelper.h"
+#import <YYKit.h>
 
 //分类
 #import "UIViewCotrollerCatergory.h"

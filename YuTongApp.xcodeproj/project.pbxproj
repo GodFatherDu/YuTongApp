@@ -21,8 +21,23 @@
 		AC2E05771F711FBE008ED757 /* UIViewController+AlertViewAndActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E05741F711FBE008ED757 /* UIViewController+AlertViewAndActionSheet.m */; };
 		AC2E05781F711FBE008ED757 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E05761F711FBE008ED757 /* UIViewController+Utils.m */; };
 		AC2E057F1F7124FB008ED757 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E057E1F7124FB008ED757 /* AdvertiseView.m */; };
+		AC6222D41F7201B800555259 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6222D21F7201B800555259 /* HomeViewController.m */; };
+		AC6222D51F7201B800555259 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6222D31F7201B800555259 /* HomeViewController.xib */; };
+		AC6222D91F7202CD00555259 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6222D71F7202CD00555259 /* MeViewController.m */; };
+		AC6222DA1F7202CD00555259 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6222D81F7202CD00555259 /* MeViewController.xib */; };
+		AC6222DE1F7202E000555259 /* FinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6222DC1F7202E000555259 /* FinderViewController.m */; };
+		AC6222DF1F7202E000555259 /* FinderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6222DD1F7202E000555259 /* FinderViewController.xib */; };
+		AC6222E31F7202FF00555259 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6222E11F7202FF00555259 /* MessageViewController.m */; };
+		AC6222E41F7202FF00555259 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6222E21F7202FF00555259 /* MessageViewController.xib */; };
+		AC6222F41F72147000555259 /* RootWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6222ED1F72147000555259 /* RootWebViewController.m */; };
+		AC6222F51F72147000555259 /* RxWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6222EF1F72147000555259 /* RxWebViewController.m */; };
+		AC6222F61F72147000555259 /* RxWebViewNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6222F11F72147000555259 /* RxWebViewNavigationViewController.m */; };
+		AC6222F91F7214A100555259 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6222F81F7214A100555259 /* RootNavigationController.m */; };
+		AC6222FE1F72154200555259 /* XYTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6222FC1F72154200555259 /* XYTransition.m */; };
+		AC6223171F72666C00555259 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6223151F72666C00555259 /* LoginViewController.m */; };
+		AC6223181F72666C00555259 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6223161F72666C00555259 /* LoginViewController.xib */; };
+		AC62231B1F726FB900555259 /* Swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AC62231A1F726FB900555259 /* Swift.pdf */; };
 		ACA1B3FC1F690B3200CA57A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1B3FB1F690B3200CA57A8 /* main.m */; };
-		ACA1B4021F690B3200CA57A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1B4011F690B3200CA57A8 /* ViewController.m */; };
 		ACA1B4051F690B3200CA57A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA1B4031F690B3200CA57A8 /* Main.storyboard */; };
 		ACA1B4071F690B3200CA57A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA1B4061F690B3200CA57A8 /* Assets.xcassets */; };
 		ACA1B40A1F690B3200CA57A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA1B4081F690B3200CA57A8 /* LaunchScreen.storyboard */; };
@@ -80,10 +95,35 @@
 		AC2E057C1F711FF3008ED757 /* UIViewCotrollerCatergory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewCotrollerCatergory.h; sourceTree = "<group>"; };
 		AC2E057D1F7124FB008ED757 /* AdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
 		AC2E057E1F7124FB008ED757 /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
+		AC6222D11F7201B800555259 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		AC6222D21F7201B800555259 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		AC6222D31F7201B800555259 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		AC6222D61F7202CD00555259 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		AC6222D71F7202CD00555259 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		AC6222D81F7202CD00555259 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
+		AC6222DB1F7202E000555259 /* FinderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinderViewController.h; sourceTree = "<group>"; };
+		AC6222DC1F7202E000555259 /* FinderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinderViewController.m; sourceTree = "<group>"; };
+		AC6222DD1F7202E000555259 /* FinderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinderViewController.xib; sourceTree = "<group>"; };
+		AC6222E01F7202FF00555259 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		AC6222E11F7202FF00555259 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		AC6222E21F7202FF00555259 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		AC6222EC1F72147000555259 /* RootWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootWebViewController.h; sourceTree = "<group>"; };
+		AC6222ED1F72147000555259 /* RootWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootWebViewController.m; sourceTree = "<group>"; };
+		AC6222EE1F72147000555259 /* RxWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewController.h; sourceTree = "<group>"; };
+		AC6222EF1F72147000555259 /* RxWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewController.m; sourceTree = "<group>"; };
+		AC6222F01F72147000555259 /* RxWebViewNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewNavigationViewController.h; sourceTree = "<group>"; };
+		AC6222F11F72147000555259 /* RxWebViewNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewNavigationViewController.m; sourceTree = "<group>"; };
+		AC6222F71F7214A100555259 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		AC6222F81F7214A100555259 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		AC6222FB1F72154200555259 /* XYTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTransition.h; sourceTree = "<group>"; };
+		AC6222FC1F72154200555259 /* XYTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTransition.m; sourceTree = "<group>"; };
+		AC6222FD1F72154200555259 /* XYTransitionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTransitionProtocol.h; sourceTree = "<group>"; };
+		AC6223141F72666C00555259 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AC6223151F72666C00555259 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		AC6223161F72666C00555259 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		AC62231A1F726FB900555259 /* Swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Swift.pdf; sourceTree = "<group>"; };
 		ACA1B3F71F690B3200CA57A8 /* YuTongApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuTongApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA1B3FB1F690B3200CA57A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ACA1B4001F690B3200CA57A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ACA1B4011F690B3200CA57A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ACA1B4041F690B3200CA57A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACA1B4061F690B3200CA57A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACA1B4091F690B3200CA57A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -144,8 +184,8 @@
 		2BB26A6C1F717CDF0031FEB1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				AC6222E51F72147000555259 /* NavigationController */,
 				2BB26A7C1F7181390031FEB1 /* RootViewController */,
-				2BB26A7B1F7181200031FEB1 /* NavigationController */,
 				2BB26A6D1F717CDF0031FEB1 /* TabbarController */,
 			);
 			path = Base;
@@ -174,13 +214,6 @@
 			path = TabBarView;
 			sourceTree = "<group>";
 		};
-		2BB26A7B1F7181200031FEB1 /* NavigationController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NavigationController;
-			sourceTree = "<group>";
-		};
 		2BB26A7C1F7181390031FEB1 /* RootViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +234,7 @@
 		AC03C9541F691B1F00737BDE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				AC6222FA1F72154200555259 /* XYTransition */,
 				AC2E05651F70FB49008ED757 /* Tools */,
 				AC03C9551F691B6600737BDE /* OpenUDID.h */,
 				AC03C9561F691B6600737BDE /* OpenUDID.m */,
@@ -259,6 +293,269 @@
 			path = Catergory;
 			sourceTree = "<group>";
 		};
+		AC6222B71F71FD9700555259 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222B81F71FF8F00555259 /* Finder(发现) */,
+				AC6222BD1F71FF8F00555259 /* Home(首页) */,
+				AC6222C71F71FF8F00555259 /* Me(我的) */,
+				AC6222C21F71FF8F00555259 /* Login(登录相关) */,
+				AC6222CC1F71FF8F00555259 /* Message(消息) */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AC6222B81F71FF8F00555259 /* Finder(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222B91F71FF8F00555259 /* Controller */,
+				AC6222BA1F71FF8F00555259 /* Logic */,
+				AC6222BB1F71FF8F00555259 /* Model */,
+				AC6222BC1F71FF8F00555259 /* View */,
+			);
+			path = "Finder(发现)";
+			sourceTree = "<group>";
+		};
+		AC6222B91F71FF8F00555259 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222DB1F7202E000555259 /* FinderViewController.h */,
+				AC6222DC1F7202E000555259 /* FinderViewController.m */,
+				AC6222DD1F7202E000555259 /* FinderViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC6222BA1F71FF8F00555259 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		AC6222BB1F71FF8F00555259 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC6222BC1F71FF8F00555259 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC6222BD1F71FF8F00555259 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222BE1F71FF8F00555259 /* Controller */,
+				AC6222BF1F71FF8F00555259 /* Logic */,
+				AC6222C01F71FF8F00555259 /* Model */,
+				AC6222C11F71FF8F00555259 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		AC6222BE1F71FF8F00555259 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222D11F7201B800555259 /* HomeViewController.h */,
+				AC6222D21F7201B800555259 /* HomeViewController.m */,
+				AC6222D31F7201B800555259 /* HomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC6222BF1F71FF8F00555259 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		AC6222C01F71FF8F00555259 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC6222C11F71FF8F00555259 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC6222C21F71FF8F00555259 /* Login(登录相关) */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222C31F71FF8F00555259 /* Controller */,
+				AC6222C41F71FF8F00555259 /* Logic */,
+				AC6222C51F71FF8F00555259 /* Model */,
+				AC6222C61F71FF8F00555259 /* View */,
+			);
+			path = "Login(登录相关)";
+			sourceTree = "<group>";
+		};
+		AC6222C31F71FF8F00555259 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC6223141F72666C00555259 /* LoginViewController.h */,
+				AC6223151F72666C00555259 /* LoginViewController.m */,
+				AC6223161F72666C00555259 /* LoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC6222C41F71FF8F00555259 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		AC6222C51F71FF8F00555259 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC6222C61F71FF8F00555259 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC6222C71F71FF8F00555259 /* Me(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222C81F71FF8F00555259 /* Controller */,
+				AC6222C91F71FF8F00555259 /* Logic */,
+				AC6222CA1F71FF8F00555259 /* Model */,
+				AC6222CB1F71FF8F00555259 /* View */,
+			);
+			path = "Me(我的)";
+			sourceTree = "<group>";
+		};
+		AC6222C81F71FF8F00555259 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222D61F7202CD00555259 /* MeViewController.h */,
+				AC6222D71F7202CD00555259 /* MeViewController.m */,
+				AC6222D81F7202CD00555259 /* MeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC6222C91F71FF8F00555259 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		AC6222CA1F71FF8F00555259 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC6222CB1F71FF8F00555259 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC6222CC1F71FF8F00555259 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222CD1F71FF8F00555259 /* Controller */,
+				AC6222CE1F71FF8F00555259 /* Logic */,
+				AC6222CF1F71FF8F00555259 /* Model */,
+				AC6222D01F71FF8F00555259 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		AC6222CD1F71FF8F00555259 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222E01F7202FF00555259 /* MessageViewController.h */,
+				AC6222E11F7202FF00555259 /* MessageViewController.m */,
+				AC6222E21F7202FF00555259 /* MessageViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC6222CE1F71FF8F00555259 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		AC6222CF1F71FF8F00555259 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC6222D01F71FF8F00555259 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC6222E51F72147000555259 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222E61F72147000555259 /* WebViewController */,
+				AC6222F71F7214A100555259 /* RootNavigationController.h */,
+				AC6222F81F7214A100555259 /* RootNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		AC6222E61F72147000555259 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222EC1F72147000555259 /* RootWebViewController.h */,
+				AC6222ED1F72147000555259 /* RootWebViewController.m */,
+				AC6222EE1F72147000555259 /* RxWebViewController.h */,
+				AC6222EF1F72147000555259 /* RxWebViewController.m */,
+				AC6222F01F72147000555259 /* RxWebViewNavigationViewController.h */,
+				AC6222F11F72147000555259 /* RxWebViewNavigationViewController.m */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		AC6222FA1F72154200555259 /* XYTransition */ = {
+			isa = PBXGroup;
+			children = (
+				AC6222FB1F72154200555259 /* XYTransition.h */,
+				AC6222FC1F72154200555259 /* XYTransition.m */,
+				AC6222FD1F72154200555259 /* XYTransitionProtocol.h */,
+			);
+			path = XYTransition;
+			sourceTree = "<group>";
+		};
+		AC6223191F726FAD00555259 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AC62231A1F726FB900555259 /* Swift.pdf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		ACA1B3EE1F690B3200CA57A8 = {
 			isa = PBXGroup;
 			children = (
@@ -284,15 +581,15 @@
 		ACA1B3F91F690B3200CA57A8 /* YuTongApp */ = {
 			isa = PBXGroup;
 			children = (
-				2BB26A6C1F717CDF0031FEB1 /* Base */,
+				ACA1B42D1F690B6D00CA57A8 /* AppDelegate */,
 				AC2E05721F711F81008ED757 /* Catergory */,
-				AC2E055E1F70EE32008ED757 /* Views */,
 				AC03C9581F691CF700737BDE /* Manager */,
 				AC03C9541F691B1F00737BDE /* Utils */,
 				ACA1B4341F6912CF00CA57A8 /* Define */,
-				ACA1B42D1F690B6D00CA57A8 /* AppDelegate */,
-				ACA1B4001F690B3200CA57A8 /* ViewController.h */,
-				ACA1B4011F690B3200CA57A8 /* ViewController.m */,
+				2BB26A6C1F717CDF0031FEB1 /* Base */,
+				AC2E055E1F70EE32008ED757 /* Views */,
+				AC6223191F726FAD00555259 /* Resource */,
+				AC6222B71F71FD9700555259 /* ViewControllers */,
 				ACA1B4031F690B3200CA57A8 /* Main.storyboard */,
 				ACA1B4061F690B3200CA57A8 /* Assets.xcassets */,
 				ACA1B4081F690B3200CA57A8 /* LaunchScreen.storyboard */,
@@ -464,9 +761,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6223181F72666C00555259 /* LoginViewController.xib in Resources */,
+				AC6222DF1F7202E000555259 /* FinderViewController.xib in Resources */,
 				ACA1B40A1F690B3200CA57A8 /* LaunchScreen.storyboard in Resources */,
 				ACA1B4071F690B3200CA57A8 /* Assets.xcassets in Resources */,
+				AC6222E41F7202FF00555259 /* MessageViewController.xib in Resources */,
+				AC6222DA1F7202CD00555259 /* MeViewController.xib in Resources */,
 				ACA1B4051F690B3200CA57A8 /* Main.storyboard in Resources */,
+				AC6222D51F7201B800555259 /* HomeViewController.xib in Resources */,
+				AC62231B1F726FB900555259 /* Swift.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,18 +842,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6222DE1F7202E000555259 /* FinderViewController.m in Sources */,
 				2BB26A7F1F71817D0031FEB1 /* XDRootViewController.m in Sources */,
+				AC6222F41F72147000555259 /* RootWebViewController.m in Sources */,
 				AC2E055D1F70E859008ED757 /* UserInfo.m in Sources */,
+				AC6222FE1F72154200555259 /* XYTransition.m in Sources */,
+				AC6223171F72666C00555259 /* LoginViewController.m in Sources */,
 				ACA1B4331F6911A400CA57A8 /* AppDelegate+AppService.m in Sources */,
 				2BB26A741F717DAE0031FEB1 /* XDTabBarView.m in Sources */,
 				AC2E055A1F70E81C008ED757 /* UserManager.m in Sources */,
+				AC6222E31F7202FF00555259 /* MessageViewController.m in Sources */,
+				AC6222D41F7201B800555259 /* HomeViewController.m in Sources */,
 				AC2E05781F711FBE008ED757 /* UIViewController+Utils.m in Sources */,
 				2BB26A7A1F717E460031FEB1 /* XDTabBarBadge.m in Sources */,
+				AC6222F91F7214A100555259 /* RootNavigationController.m in Sources */,
 				ACA1B4301F690B6D00CA57A8 /* AppDelegate.m in Sources */,
-				ACA1B4021F690B3200CA57A8 /* ViewController.m in Sources */,
+				AC6222F51F72147000555259 /* RxWebViewController.m in Sources */,
 				ACA1B3FC1F690B3200CA57A8 /* main.m in Sources */,
 				2BB26A771F717E230031FEB1 /* XDTabBarItem.m in Sources */,
 				AC2E05681F70FB56008ED757 /* GlobalTools.m in Sources */,
+				AC6222D91F7202CD00555259 /* MeViewController.m in Sources */,
+				AC6222F61F72147000555259 /* RxWebViewNavigationViewController.m in Sources */,
 				AC03C9571F691B6600737BDE /* OpenUDID.m in Sources */,
 				AC2E057F1F7124FB008ED757 /* AdvertiseView.m in Sources */,
 				AC2E05771F711FBE008ED757 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
@@ -709,6 +1021,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9HW2TTN4VS;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YuTongApp/YuTongPrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AXIndicatorView\"",
+					"\"${PODS_ROOT}/Headers/Public/AXNavigationBackItemInjection\"",
+					"\"${PODS_ROOT}/Headers/Public/AXPracticalHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/AXWebViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/Aspects\"",
+					"\"${PODS_ROOT}/Headers/Public/NJKWebViewProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/PPNetworkHelper\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKit\"",
+				);
 				INFOPLIST_FILE = YuTongApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -724,6 +1050,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9HW2TTN4VS;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YuTongApp/YuTongPrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AXIndicatorView\"",
+					"\"${PODS_ROOT}/Headers/Public/AXNavigationBackItemInjection\"",
+					"\"${PODS_ROOT}/Headers/Public/AXPracticalHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/AXWebViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/Aspects\"",
+					"\"${PODS_ROOT}/Headers/Public/NJKWebViewProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/PPNetworkHelper\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKit\"",
+				);
 				INFOPLIST_FILE = YuTongApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -9,6 +9,36 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AXIndicatorView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AXNavigationBackItemInjection.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AXPracticalHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AXWebViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Aspects.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NJKWebViewProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>PPNetworkHelper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,7 +54,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>YYCache.xcscheme</key>
+		<key>YYKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,12 +62,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3A57C087B23143428B6D5A917A071F64</key>
+		<key>1624615722302EA97183423D12094EA0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7C961AAFE698873776B5B3513E8FB195</key>
+		<key>1E87E3A02A0380B1CC2825A8155D5EE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>376F2C2F0755AE50A16A631C24D50EB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>405984B597EA9C891A014AF28FC9537D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8BA6986852A8A534ED5F5D70DB15F51C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +92,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B568AF9AAF921C83FE7ECC5AE4E31CA8</key>
+		<key>9FCCAAE8E1225874F8C964FB3AB0CDCE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E83685E144AE835F774648D3F5500CCC</key>
+		<key>A13B46815134E20C1E629EBFADA4A1FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B387683795C864D7CBB36A75C582F9A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7C5FD310966070D9553E5B95C59641B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED653112271149D797C0932CA76A0401</key>
 		<dict>
 			<key>primary</key>
 			<true/>

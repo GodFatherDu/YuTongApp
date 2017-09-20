@@ -7,7 +7,7 @@
 //
 
 #import "XDTabBarView.h"
-#import "XDTabBarItem.h"
+
 
 @implementation XDTabBarView
 

@@ -8,6 +8,13 @@
 
 #import "XDMainTabBarController.h"
 
+#import "RootNavigationController.h"
+#import "HomeViewController.h"
+#import "FinderViewController.h"
+#import "MessageViewController.h"
+#import "MeViewController.h"
+
+
 @interface XDMainTabBarController ()<TabBarDelegate>
 PropertyNSMutableArray(VCS);//tabbar root VC
 @end
@@ -47,17 +54,17 @@ PropertyNSMutableArray(VCS);//tabbar root VC
 #pragma mark - ——————— 初始化VC ————————
 -(void)setUpAllChildViewController{
     _VCS = @[].mutableCopy;
-    //    HomeViewController *homeVC = [[HomeViewController alloc]init];
-    WaterFallListViewController *homeVC = [WaterFallListViewController new];
+    
+    HomeViewController *homeVC = [[HomeViewController alloc]init];
     [self setupChildViewController:homeVC title:@"首页" imageName:@"icon_tabbar_homepage" seleceImageName:@"icon_tabbar_homepage_selected"];
     
-    MakeFriendsViewController *makeFriendVC = [[MakeFriendsViewController alloc]init];
-    [self setupChildViewController:makeFriendVC title:@"交友" imageName:@"icon_tabbar_onsite" seleceImageName:@"icon_tabbar_onsite_selected"];
+    FinderViewController *makeFriendVC = [[FinderViewController alloc]init];
+    [self setupChildViewController:makeFriendVC title:@"发现" imageName:@"icon_tabbar_onsite" seleceImageName:@"icon_tabbar_onsite_selected"];
     
-    MsgViewController *msgVC = [[MsgViewController alloc]init];
+    MessageViewController *msgVC = [[MessageViewController alloc]init];
     [self setupChildViewController:msgVC title:@"消息" imageName:@"icon_tabbar_merchant_normal" seleceImageName:@"icon_tabbar_merchant_selected"];
     
-    MineViewController *mineVC = [[MineViewController alloc]init];
+    MeViewController *mineVC = [[MeViewController alloc]init];
     [self setupChildViewController:mineVC title:@"我的" imageName:@"icon_tabbar_mine" seleceImageName:@"icon_tabbar_mine_selected"];
     
     self.viewControllers = _VCS;

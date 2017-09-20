@@ -14,6 +14,21 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - AXIndicatorView (0.0.7)
+  - AXNavigationBackItemInjection (0.0.2)
+  - AXPracticalHUD (1.1.6):
+    - AXIndicatorView
+  - AXWebViewController (0.6.1):
+    - Aspects
+    - AXNavigationBackItemInjection
+    - AXPracticalHUD
+    - NJKWebViewProgress
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
   - PPNetworkHelper (0.8.0):
     - AFNetworking (~> 3.1.0)
     - YYCache (~> 1.0.4)
@@ -21,17 +36,29 @@ PODS:
     - SDWebImage/Core (= 4.1.0)
   - SDWebImage/Core (4.1.0)
   - YYCache (1.0.4)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - AXWebViewController (~> 0.6.0)
   - PPNetworkHelper
   - SDWebImage
+  - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  AXIndicatorView: caa6c08cc6b732fad163fa26197e3c34b1339060
+  AXNavigationBackItemInjection: efe0446967f3cbcc85a9118decd1e145138912dd
+  AXPracticalHUD: eba707b5515a4da7424ac3d36f07e643df1c8fc3
+  AXWebViewController: 3a6751e9afdf2ca09663c3db460833f07c524d61
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
   PPNetworkHelper: 900d1af5cb9f2932b3f955ebf72148b7ec403d44
   SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 17a48a202b003aada906babc5784f0cd4d688ae1
+PODFILE CHECKSUM: 35cfd5f0b88886a6299959460eb8d87b92134040
 
 COCOAPODS: 1.2.0

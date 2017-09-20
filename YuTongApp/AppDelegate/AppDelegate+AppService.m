@@ -9,7 +9,8 @@
 #import "AppDelegate+AppService.h"
 #import "OpenUDID.h"
 
-#import "ViewController.h"
+
+#import "LoginViewController.h"
 
 @implementation AppDelegate (AppService)
 
@@ -36,8 +37,6 @@
     [self.window makeKeyAndVisible];
     [[UIButton appearance] setExclusiveTouch:YES];
     
-    
-    self.window.rootViewController = [[UIViewController alloc] init];
     //    [[UIButton appearance] setShowsTouchWhenHighlighted:YES];
 //    [UIActivityIndicatorView appearanceWhenContainedIn:[MBProgressHUD class], nil].color = KWhiteColor;
 }
@@ -71,62 +70,63 @@
 }
 
 #pragma mark ————— 登录状态处理 —————
-//- (void)loginStateChange:(NSNotification *)notification
-//{
-//    BOOL loginSuccess = [notification.object boolValue];
-//    
-//    if (loginSuccess) {//登陆成功加载主窗口控制器
-//        
-//        //为避免自动登录成功刷新tabbar
-//        if (!self.mainTabBar || ![self.window.rootViewController isKindOfClass:[MainTabBarController class]]) {
-//            self.mainTabBar = [MainTabBarController new];
-//            
-//            CATransition *anima = [CATransition animation];
-//            anima.type = @"cube";//设置动画的类型
-//            anima.subtype = kCATransitionFromRight; //设置动画的方向
-//            anima.duration = 0.5f;
-//            
-//            self.window.rootViewController = self.mainTabBar;
-//            
-//            [kAppWindow.layer addAnimation:anima forKey:@"revealAnimation"];
-//            
-//        }
-//        
-//    }else {//登陆失败加载登陆页面控制器
-//        
-//        self.mainTabBar = nil;
-//        RootNavigationController *loginNavi =[[RootNavigationController alloc] initWithRootViewController:[LoginViewController new]];
-//        self.window.rootViewController = loginNavi;
-//        
-//    }
-//    //展示FPS
+- (void)loginStateChange:(NSNotification *)notification
+{
+    BOOL loginSuccess = [notification.object boolValue];
+    
+    if (loginSuccess) {//登陆成功加载主窗口控制器
+        
+        //为避免自动登录成功刷新tabbar
+        if (!self.mainTabBar || ![self.window.rootViewController isKindOfClass:[XDMainTabBarController class]]) {
+            self.mainTabBar = [XDMainTabBarController new];
+            
+            CATransition *anima = [CATransition animation];
+            anima.type = @"cube";//设置动画的类型
+            anima.subtype = kCATransitionFromRight; //设置动画的方向
+            anima.duration = 0.5f;
+            
+            self.window.rootViewController = self.mainTabBar;
+            
+            [kAppWindow.layer addAnimation:anima forKey:@"revealAnimation"];
+            
+        }
+        
+    }else {//登陆失败加载登陆页面控制器
+        
+        self.mainTabBar = nil;
+        RootNavigationController *loginNavi =[[RootNavigationController alloc] initWithRootViewController:[LoginViewController new]];
+        self.window.rootViewController = loginNavi;
+        
+    }
+    //展示FPS
+    [[AppManager sharedAppManager] showAdViewBegin];
 //    [AppManager appStart];
-//    //    [AppManager showFPS];
-//}
+    //    [AppManager showFPS];
+}
 
 
 #pragma mark ————— 网络状态变化 —————
-//- (void)netWorkStateChange:(NSNotification *)notification
-//{
-//    BOOL isNetWork = [notification.object boolValue];
-//    
-//    if (isNetWork) {//有网络
-//        if ([userManager loadUserInfo] && !isLogin) {//有用户数据 并且 未登录成功 重新来一次自动登录
-//            [userManager autoLoginToServer:^(BOOL success, NSString *des) {
-//                if (success) {
-//                    DLog(@"网络改变后，自动登录成功");
-//                    //                    [MBProgressHUD showSuccessMessage:@"网络改变后，自动登录成功"];
-//                    KPostNotification(KNotificationAutoLoginSuccess, nil);
-//                }else{
+- (void)netWorkStateChange:(NSNotification *)notification
+{
+    BOOL isNetWork = [notification.object boolValue];
+    
+    if (isNetWork) {//有网络
+        if ([userManager loadUserInfo] && !isLogin) {//有用户数据 并且 未登录成功 重新来一次自动登录
+            [userManager autoLoginToServer:^(BOOL success, NSString *des) {
+                if (success) {
+                    DLog(@"网络改变后，自动登录成功");
+                    //                    [MBProgressHUD showSuccessMessage:@"网络改变后，自动登录成功"];
+                    KPostNotification(KNotificationAutoLoginSuccess, nil);
+                }else{
 //                    [MBProgressHUD showErrorMessage:NSStringFormat(@"自动登录失败：%@",des)];
-//                }
-//            }];
-//        }
-//        
-//    }else {//登陆失败加载登陆页面控制器
+                }
+            }];
+        }
+        
+    }else {//登陆失败加载登陆页面控制器
 //        [MBProgressHUD showTopTipMessage:@"网络状态不佳" isWindow:YES];
-//    }
-//}
+    }
+}
 
 
 #pragma mark ————— 友盟 初始化 —————

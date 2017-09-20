@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-
+#import "XDTabBarItem.h"
 @class XDTabBarView, XDTabBarItem;
 
 //给每个按钮定义协议 与 方法
